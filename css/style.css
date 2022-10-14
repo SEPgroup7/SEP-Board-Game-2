@@ -11,12 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {  
-    background-image: url(/images/background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover  ;
-}
-
 .clearfix {
     overflow: auto;
 }
@@ -71,21 +65,55 @@ h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
 }
-
+/*button*/
 .btn {
-    border: 1px solid black;
+    
     padding: 5px 25px;
     transition: all 0.3s ease-in-out;
+    background-color: rgba(245, 222, 179, 0);
 }
 
 .btn:hover {
     transform: scale(1.7);
-    border-color:rgb(125, 124, 124);
-    background-color: black;
+    
+    
+   
+}
+/*content wrapper for te boddy*/
+.content-wrapper{
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+/* Breakpoint for mobile devices*/
+@media only screen and (max-width: 767px) {
+.content-wrapper{
+background-image: url(/images/BackgroundMobile.jpg) !important;
+}
+
+.text-wrapper{
+    padding :50px !important;
+}
+
+.text-wrapper h1,.text-wrapper h3{
+    font-size: 20px ;
+}
+
+
+}
+/* text wrapper for the boddy*/
+.text-wrapper{
+    padding: 175px 200px;
+
+}
+.text-wrapper h1,.text-wrapper h3{
     color: white;
     
 }
-@media only screen and (max-width: 767px) {
-    body {
-    background-image: url(/images/BackgroundMobile.jpg) !important;
-    }
+.text-wrapper a{
+    color: black;
+    font-size: 30px;
+}
