@@ -17,10 +17,12 @@
 
 
 <body>
-  <table class="table">
+  <div class="table-responsive">
+  <table class="table table-sm table-bordered table-striped">
     <!-- First table row containing the name's of the values inside -->
-    <thead>
+    <thead class="text-center">
       <tr>
+        <th scope="col">#</th>
         <th scope="col">nameOfGame</th>
         <th scope="col">noOfPlayers</th>
         <th scope="col">gameOwner</th>
@@ -28,9 +30,11 @@
         <th scope="col">dateOfLoan</th>
       </tr>
     </thead>
+
     <!-- the values themselves -->
-    <tbody>
+    <tbody class="text-center">
       <tr>
+        <th scope="row">1</th>
         <td>Chess</td>
         <td>2</td>
         <td>Bob</td>
@@ -38,6 +42,7 @@
         <td>22/01/22</td>
       </tr>
       <tr>
+        <th scope="row">2</th>
         <td>Checkers</td>
         <td>2</td>
         <td>Bob</td>
@@ -45,6 +50,7 @@
         <td>22/01/22</td>
       </tr>
       <tr>
+        <th scope="row">3</th>
         <td>Monopoly</td>
         <td>2-8</td>
         <td>Bob</td>
@@ -52,6 +58,7 @@
         <td>22/01/22</td>
       </tr>
       <tr>
+        <th scope="row">4</th>
         <td>Scrabble</td>
         <td>2-4</td>
         <td>Bob</td>
@@ -59,6 +66,7 @@
         <td>22/01/22</td>
       </tr>
       <tr>
+        <th scope="row">5</th>
         <td>D&D</td>
         <td>4</td>
         <td>Bob</td>
@@ -66,6 +74,7 @@
         <td>22/01/22</td>
       </tr>
       <tr>
+        <th scope="row">6</th>
         <td>Domino</td>
         <td>2-4</td>
         <td>Bob</td>
@@ -74,10 +83,10 @@
       </tr>
     </tbody>
   </table>
+</div>
 
-
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 
