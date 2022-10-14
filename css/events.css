@@ -1,0 +1,30 @@
+/* Filip Svehlak */
+
+.fblinktext {
+    color: green
+}
+
+
+.eventchess-container,
+.eventcheckers-container,
+.eventmonopoly-container,
+.gamenight-container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.eventchess-wrapper,
+.eventcheckers-wrapper,
+.eventmonopoly-wrapper,
+.gamenight-wrapper,
+.navbar-wrapper {
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.eventchess-wrapper,
+.eventcheckers-wrapper,
+.eventmonopoly-wrapper,
+.gamenight-wrapper {
+    height: fit-content;
+}
