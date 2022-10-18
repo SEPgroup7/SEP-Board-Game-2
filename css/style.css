@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5, h6, a {
     
    
 }
-/*content wrapper for te boddy*/
+
+/*content wrapper for the boddy*/
 .content-wrapper{
     background-image: url(/images/try2.jpg);
     background-repeat: no-repeat;
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6, a {
 /* Breakpoint for mobile devices*/
 @media only screen and (max-width: 767px) {
 .content-wrapper{
-background-image: url(/images/BackgroundMobile\ \(2\).jpg) !important;
+background-image: url(./images/BackgroundMobile\ \(2\).jpg) !important;
 }
 
 .text-wrapper{
@@ -112,14 +113,13 @@ background-image: url(/images/BackgroundMobile\ \(2\).jpg) !important;
 /* text wrapper for the boddy*/
 .text-wrapper{
     padding: 70px 200px;
-    
-
 }
+
 .text-wrapper h1,.text-wrapper h3{
     color: black;
     overflow: hidden;
-    
 }
+
 .text-wrapper a{
     color: black;
     font-size: 30px;
