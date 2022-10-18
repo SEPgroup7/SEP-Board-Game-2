@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5, h6, a {
 }
 /*button*/
 .btn {
-    
     padding: 5px 25px;
     transition: all 0.3s ease-in-out;
     background-color: #e7e7df00;
@@ -76,15 +75,11 @@ h1, h2, h3, h4, h5, h6, a {
 
 .btn:hover {
     transform: scale(1.7);
-    
-    
-    
-   
 }
 
 /*content wrapper for the boddy*/
 .content-wrapper{
-    background-image: url(./images/try2.jpg);
+    background-image: url(../images/try2.jpg);
     background-repeat: no-repeat;
     background-position: bottom  ;
     background-size: cover;
@@ -95,7 +90,7 @@ h1, h2, h3, h4, h5, h6, a {
 /* Breakpoint for mobile devices*/
 @media only screen and (max-width: 767px) {
 .content-wrapper{
-background-image: url(./images/BackgroundMobile\ \(2\).jpg) !important;
+background-image: url(../images/BackgroundMobile.jpg) !important;
 }
 
 .text-wrapper{
