@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 /*content wrapper for the boddy*/
 .content-wrapper{
-    background-image: url(../images/try2.jpg);
+    background-image: url(../images/Background.jpg);
     background-repeat: no-repeat;
     background-position: bottom  ;
     background-size: cover;
