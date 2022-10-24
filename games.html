@@ -1,5 +1,6 @@
+<!--Jakub Kuka-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!--Meta data-->
@@ -14,8 +15,96 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" />
   <link href="css/navbar.css" type="text/css" rel="stylesheet" />
 </head>
-s
+
 <body>
+  <!-- Bootstrap navbar -->
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><img src="/images/Logo_300x300.png" height="30" alt="Big board collectors logo"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Nav bar links -->
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/registry.html">Registry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/games.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main content-->
+  <div class="container-fluid">
+
+    <div class="container text-center p-3">
+      <div class="row">
+        <h2>Strategy</h2>
+      </div>
+      <div class="row">
+
+        <div class="col p-3 border bg-light p-5 d-flex align-items-center justify-content-center">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <!--Carousel-->
+        <div class="col p-3 border bg-light">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <!--Images-->
+              <div class="carousel-item active">
+                <img src="/images/Games/chess.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/Games/checkers.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/Games/domino.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+            <!--Buttons-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="p-4 bg-dark text-white text-left container-fluid">
+    <div>
+      <p>Copyright © Big Board Collectors | 2022</p>
+    </div>
+  </footer>
 
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
