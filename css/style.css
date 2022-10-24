@@ -11,10 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #d9d9d9;
-}
-
 .clearfix {
     overflow: auto;
 }
@@ -69,17 +65,57 @@ h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
 }
-
+/*button*/
 .btn {
-    border: 1px solid black;
     padding: 5px 25px;
     transition: all 0.3s ease-in-out;
+    background-color: #e7e7df00;
+    padding: 0px;
 }
 
 .btn:hover {
     transform: scale(1.7);
-    border-color:rgb(125, 124, 124);
-    background-color: black;
-    color: white;
+}
+
+/*content wrapper for the boddy*/
+.content-wrapper{
+    background-image: url(../images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom  ;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
     
+}
+/* Breakpoint for mobile devices*/
+@media only screen and (max-width: 767px) {
+.content-wrapper{
+background-image: url(../images/BackgroundMobile.jpg) !important;
+}
+
+.text-wrapper{
+    padding :50px !important;
+    
+}
+
+.text-wrapper h1,.text-wrapper h3{
+    font-size: 20px ;
+   
+}
+
+
+}
+/* text wrapper for the boddy*/
+.text-wrapper{
+    padding: 70px 200px;
+}
+
+.text-wrapper h1,.text-wrapper h3{
+    color: black;
+    overflow: hidden;
+}
+
+.text-wrapper a{
+    color: black;
+    font-size: 30px;
 }

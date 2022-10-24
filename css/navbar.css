@@ -1,0 +1,9 @@
+/* Navbar logo padding */
+.navbar-brand{              
+    padding: 20px 40px;
+}
+
+.nav-link{
+    color: black;
+}
+

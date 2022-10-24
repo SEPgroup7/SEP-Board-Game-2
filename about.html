@@ -1,3 +1,5 @@
+<!-- Coded by Mark -->
+
 <!DOCTYPE html>
 <html>
 
@@ -12,16 +14,90 @@
 
   <!--Linking our own css-->
   <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <link href="css/about.css" type="text/css" rel="stylesheet" />
   <link href="css/navbar.css" type="text/css" rel="stylesheet" />
 </head>
 
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md nav-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/Logo_300x300.png" height="70px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link p-4"href="registry.html"><strong>Registry</strong></a>
+          <a class="nav-link p-4" href="games.html"><strong>Games</strong></a>
+          <a class="nav-link p-4" href="events.html"><strong>Events</strong></a>
+          <a class="nav-link p-4" href="about.html"><strong>About Us</strong></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- About Us section divided into a separate section (Header and the group participants) 
+    Each person is like a module that has the information filled in-->
+  <section class="AboutUs">
+    <div class="about-us-heading">
+      <h1 class="text-center font-weight-bold">About Us</h1>
+    </div>
 
+    <!-- clearfix group of boxes -->
+    <div class="row clearfix">
+      <!-- the box itself containing everything for a person -->
 
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+      <!-- Jakub's box -->
+      <div class="container p-5" style="width:300px">
+        <a href="https://www.linkedin.com/in/jakub-kuka/"><img src="images/Faces/JakubKuka.jpg" class="img-fluid rounded-circle" alt="JakubKuka"></a>
+        <div class="text-center">
+          <b class="p-1">Jakub Kuka</b>
+          <a href="mailto:331167@via.dk">331167@via.dk</a>
+        </div>
+      </div>
+
+      <!-- Marks's box -->
+      <div class="container p-5" style="width:300px">
+        <a href="https://www.linkedin.com/in/marcus-mitelea/"><img src="images/Faces/MarcusMit.jpg" class="img-fluid rounded-circle" alt="MarcusMitelea"></a>
+        <div class="text-center">
+          <b class="p-1">Marcus Mitelea</b>
+          <a href="mailto:331694@via.dk">331694@via.dk</a>
+        </div>
+      </div>
+
+      <!-- Ricardo's box -->
+      <div class="container p-5" style="width:300px">
+        <img src="images/Faces/RicardoFernandes.jpeg" class="img-fluid rounded-circle" alt="RicardoFernandes"></a>
+        <div class="text-center">
+          <b class="p-1">Ricardo Fernandes</b>
+          <a href="mailto:331073@via.dk">331073@via.dk</a>
+        </div>
+      </div>
+
+      <!-- Filip's box -->
+      <div class="container p-5" style="width:300px">
+        <img src="images/Faces/FilipSvehlak.jpg" alt="FilipSvehlak" class="img-fluid rounded-circle"></a>
+        <div class="text-center">
+          <b class="p-1">Filip Svehlak</b>
+          <a href="mailto:331306@via.dk">331306@via.dk</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
 </body>
 
+<!-- Bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- simple footer deprecated till further notice -->
+<!-- <footer class="row">
+  <p class="col-12">Sep Group 7 &copy;</p>
+</footer> -->
+</body>
 
 </html>
