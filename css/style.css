@@ -96,14 +96,16 @@ h1, h2, h3, h4, h5, h6, a {
 @media only screen and (max-width: 767px) {
 .content-wrapper{
 background-image: url(../images/BackgroundMobile.jpg) !important;
+overflow-y: auto;
 }
 
 .text-wrapper{
-    padding :50px !important;
+    padding :150px  !important;
 }
 
 .text-wrapper h1,.text-wrapper h3{
-    font-size: 20px ;
+    font-size: 30px ;
+    
 }
 
 
