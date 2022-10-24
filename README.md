@@ -6,5 +6,4 @@ HTML, CSS and Bootstrap <br/>
 
 We CANT USE: <br/>
 -Javascript <br/>
--Flexbox <br/>
 -no inline <br/>

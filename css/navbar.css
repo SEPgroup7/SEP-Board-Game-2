@@ -7,3 +7,8 @@
     color: black;
 }
 
+.navbar-toggler{
+    padding: 30px;
+    border :none;
+
+}
