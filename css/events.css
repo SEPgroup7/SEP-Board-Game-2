@@ -8,7 +8,9 @@
     background-color: #c5bbbb;
 }
 
-
+.col {
+    height: 150px;
+}
 
 .mx {
     margin-top: 10px;
@@ -33,6 +35,6 @@ a {
     color: black !important;
 }
 
-.text {
-    overflow: hidden !important;
+.overflow-auto {
+    overflow: auto !important;
 }
