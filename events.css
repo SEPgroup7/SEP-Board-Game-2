@@ -1,0 +1,42 @@
+/* Filip Svehlak */
+
+.yellow {
+    background-color: rgb(253, 253, 124);
+    overflow: auto !important;
+    text-align: justify !important;
+}
+
+.green {
+    background-color: rgb(183, 252, 183);
+}
+
+.red {
+    background-color: rgb(253, 174, 174);
+}
+
+.grey {
+    background-color: rgb(180, 180, 180);
+}
+
+.m-1 {
+    margin-top: 25px !important;
+    margin-right: 50px !important;
+    margin-bottom: 25px !important;
+    margin-left: 50px !important;
+}
+
+.p-1 {
+    padding-top: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 20px !important;
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
