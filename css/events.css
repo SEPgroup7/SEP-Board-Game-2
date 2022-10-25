@@ -46,3 +46,10 @@ a {
 .overflow-auto {
     overflow: auto !important;
 }
+
+/*footer*/
+.footer p {
+    margin: 0 !important;
+    color: white;
+    padding: 12px 0;
+}
