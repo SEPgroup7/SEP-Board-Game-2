@@ -1,5 +1,9 @@
 /*Jakub Kuka*/
 
-* {
-    box-sizing: content-box;
-  }
+.strategy-heading {
+    padding: 30px 0px;
+}
+
+img.d-block.w-100 {
+    border-radius: 15px;
+}
