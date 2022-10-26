@@ -124,3 +124,10 @@ overflow-y: auto;
     color: black;
     font-size: 30px;
 }
+
+/*footer*/
+.footer p {
+    margin: 0 !important;
+    color: white;
+    padding: 12px 0;
+}
