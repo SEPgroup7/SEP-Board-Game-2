@@ -6,25 +6,9 @@ html {
 
 body {
     background-color: #D9D9D9 !important;
-
-}
-* {
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
-    overflow-x: hidden;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
+/* Hyperlink */
 a {
     text-decoration: none;
     font-family: 'Montserrat';
@@ -35,6 +19,7 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+/* Text */
 p {
     font-size: 17px;
     font-weight: 400;
@@ -73,7 +58,8 @@ h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
 }
-/*button*/
+
+/* Button*/
 .btn {
     padding: 5px 25px;
     transition: all 0.3s ease-in-out;
@@ -89,7 +75,7 @@ h1, h2, h3, h4, h5, h6, a {
     background-color: #d4d2c3;
 } 
 
-/*content wrapper for the body*/
+/* Content wrapper for the body*/
 .content-wrapper{
     background-image: url(../images/Background.jpg);
     background-repeat: no-repeat;
@@ -112,11 +98,10 @@ overflow-y: auto;
 
 .text-wrapper h1,.text-wrapper h3{
     font-size: 30px ;
-    
 }
 
 }
-/* text wrapper for the body*/
+/* Text wrapper for the body*/
 .text-wrapper{
     padding: 70px 200px;
 }
@@ -133,7 +118,7 @@ overflow-y: auto;
 
 /*footer*/
 .footer p {
-    margin: 0 !important;
+    margin: 0;
     color: white;
     padding: 12px 0;
     font-size: 15px;
