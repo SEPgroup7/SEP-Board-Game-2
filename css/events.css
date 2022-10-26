@@ -1,37 +1,55 @@
 /* Filip Svehlak */
 
-.fblinktext {
-    color: green
+/* next upcomming event color */
+.next {
+    background-color: #FFCDB9;
 }
 
-.eventchess-container,
-.eventcheckers-container,
-.eventmonopoly-container,
-.gamenight-container {
-    max-width: 100%;
-    width: 100%;
+/* later upcomming events color */
+.later {
+    background-color: #c5bbbb;
 }
 
-.eventchess-container a,
-.eventcheckers-container a,
-.eventmonopoly-container a,
-.gamenight-container a {
-    text-decoration: none;
+/* height of the columns */
+.col {
+    height: 150px;
+}
+
+/* margins */
+.mx {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+/* padding */
+.px {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* header text color */
+h2 {
     color: black;
 }
 
-.eventchess-wrapper,
-.eventcheckers-wrapper,
-.eventmonopoly-wrapper,
-.gamenight-wrapper,
-.navbar-wrapper {
-    width: 100%;
-    background-color: #d9d9d9;
+/* link color/ no link underline */
+a {
+    text-decoration: none !important;
+    color: black !important;
 }
 
-.eventchess-wrapper,
-.eventcheckers-wrapper,
-.eventmonopoly-wrapper,
-.gamenight-wrapper {
-    height: fit-content;
+/* overflow */
+.overflow-auto {
+    overflow: auto !important;
+}
+
+/*footer*/
+.footer p {
+    margin: 0 !important;
+    color: white;
+    padding: 12px 0;
 }
