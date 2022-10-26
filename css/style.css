@@ -128,11 +128,7 @@ overflow-y: auto;
 
 .text-wrapper a{
     color: black;
-    font-size: 28px;
-}
-
-.text-wrapper h3{
-    padding: 10px 0px 13px 0px;
+    font-size: 30px;
 }
 
 /*footer*/
