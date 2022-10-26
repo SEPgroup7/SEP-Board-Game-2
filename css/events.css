@@ -17,7 +17,7 @@
 
 /* margins */
 .mx {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
     margin-left: 10px;
@@ -46,6 +46,7 @@ a {
 .overflow-auto {
     overflow: auto !important;
 }
-body{
+
+body {
     background-color: #d9d9d9;
 }
