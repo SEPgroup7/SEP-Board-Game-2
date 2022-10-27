@@ -11,9 +11,7 @@
 }
 
 /* height of the columns */
-.col {
-    height: 150px;
-}
+
 
 /* margins */
 .mx {
@@ -38,15 +36,6 @@ h2 {
 
 /* link color/ no link underline */
 a {
-    text-decoration: none !important;
-    color: black !important;
-}
-
-/* overflow */
-.overflow-auto {
-    overflow: auto !important;
-}
-
-body {
-    background-color: #d9d9d9;
+    text-decoration: none;
+    color: black;
 }
