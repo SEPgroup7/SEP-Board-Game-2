@@ -5,5 +5,5 @@ Only: <br/>
 HTML, CSS and Bootstrap <br/>
 
 We CANT USE: <br/>
--Javascript <br/>
+-Javascript outside bootstrap's<br/>
 -no inline <br/>
