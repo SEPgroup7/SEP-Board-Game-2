@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 /* Content wrapper for the body*/
 .content-wrapper{
-    background-image: url(../images/Background.jpg);
+    background-image: url(../images/Backgrounds/Background.jpg);
     background-repeat: no-repeat;
     background-position: bottom  ;
     background-size: cover;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, a {
 /* Breakpoint for mobile devices*/
 @media only screen and (max-width: 767px) {
 .content-wrapper{
-background-image: url(../images/BackgroundMobile.jpg) !important;
+background-image: url(../images/Backgrounds/BackgroundMobile.jpg) !important;
 overflow-y: auto;
 }
 
